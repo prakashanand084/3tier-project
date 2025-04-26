@@ -19,7 +19,7 @@ spec:
         image: 585768170158.dkr.ecr.us-east-1.amazonaws.com/frontend:latest
         ports:
         - containerPort: 80
-          env:   # <-- Fixed indentation
+        env:   # <-- Fixed indentation
         - name: REACT_APP_API_BASE_URL
           value: "http://af1593b231e124c329b0ade191c30d9b-805706781.us-east-1.elb.amazonaws.com"
 ---
