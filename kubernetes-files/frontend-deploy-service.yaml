@@ -21,7 +21,7 @@ spec:
         - containerPort: 80
         env:
         - name: REACT_APP_API_BASE_URL
-          value: "http://af1593b231e124c329b0ade191c30d9b-805706781.us-east-1.elb.amazonaws.com"
+          value: "http://a6a711c0959154ae7b848081fbbbc0db-948275950.us-east-1.elb.amazonaws.com"
 ---
 apiVersion: v1
 kind: Service
